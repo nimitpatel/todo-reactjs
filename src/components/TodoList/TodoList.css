@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.input input {
+    height: 2.5em;
+    color: white;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.input input:focus { 
+    outline: none;
+}
+
+.input button {
+    background: transparent;
+    border: none;
+    color: green;
+    margin-left: 25px;
+}
